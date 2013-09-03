@@ -1,5 +1,9 @@
 package com.elezeta.gnlp.model;
 
-public class Sentence {
+import org.modelcc.*;
 
+public class Sentence implements IModel {
+
+	private Clause clause;
+	
 }

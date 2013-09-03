@@ -10,5 +10,4 @@ public class SentenceTest {
 	public void test() {
 		//TODO
 	}
-
 }
