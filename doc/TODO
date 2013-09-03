@@ -1,3 +1,7 @@
+- CLI: parameters language and phrase
+- CLI: parser generation
+- ant build.xml 
+
 Need to do:
 
    Nominal complements comprise nominal phrases, nominal composites, and
