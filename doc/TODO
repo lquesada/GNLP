@@ -1,0 +1,15 @@
+Need to do:
+
+Conjunction
+CoordinatingConjunction
+NominalPhrase
+VerbalPhrase
+
+Careful CSM:
+
+CoordinateClauseComposite[conjunction] separatorPolicy = BEFORELAST
+VerbalComposite[conjunction] separatorPolicy = BEFORELAST
+
+
+TODO:
+FreeOrder in VerbalComplement inherits alright to VerbalComposite?
