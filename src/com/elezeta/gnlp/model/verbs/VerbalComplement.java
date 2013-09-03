@@ -7,6 +7,6 @@ import com.elezeta.gnlp.model.XComplement;
 @FreeOrder
 public abstract class VerbalComplement extends XComplement implements IModel {
 
-	XComplement extraComplements[];
+	// Verbal complements comprise verbal phrases and verbal composites.
 
 }
