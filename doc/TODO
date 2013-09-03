@@ -2,8 +2,9 @@ Need to do:
 
 Conjunction
 CoordinatingConjunction
+Verb
 NominalPhrase
-VerbalPhrase
+Preposition
 
 Careful CSM:
 
@@ -11,5 +12,5 @@ CoordinateClauseComposite[conjunction] separatorPolicy = BEFORELAST
 VerbalComposite[conjunction] separatorPolicy = BEFORELAST
 
 
-TODO:
+CHECK:
 FreeOrder in VerbalComplement inherits alright to VerbalComposite?
