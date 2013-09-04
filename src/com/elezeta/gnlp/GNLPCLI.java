@@ -2,6 +2,7 @@ package com.elezeta.gnlp;
 
 import org.modelcc.parser.Parser;
 
+import com.elezeta.gnlp.languages.explicit.ExplicitParserFactory;
 import com.elezeta.gnlp.model.Sentence;
 
 public class GNLPCLI {
@@ -40,14 +41,23 @@ public class GNLPCLI {
 		    System.err.println("Example: java -jar GNLP.jar explicit \"It(Pronoun) is(Verb) raining(Verb)\"");
 		    System.exit(1);
 		}
-		Parser<Sentence> parser;
+		Parser<Sentence> parser = null;
 		if (args[0].equals("explicit")) {
-			
+			try {
+				parser = ExplicitParserFactory.generateParser();
+			} catch (Exception e) {
+				System.err.println("Exception while generating parser.");
+				e.printStackTrace(System.err);
+				System.exit(1);
+			}
 		}
 		else {
 			System.err.println("Invalid language: "+args[0]);
 		    System.err.println("");
 		    System.exit(1);
+		}
+		if (parser != null) {
+			//TODO parsing
 		}
 	}
 }

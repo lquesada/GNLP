@@ -1,7 +1,5 @@
-- CLI: parameters language and phrase
-- CLI: parser generation
-- ant build.xml 
-- Dummy language
+- Explicit parser factory
+- Parsing (GNLPCLI)
 
 Need to do:
 
