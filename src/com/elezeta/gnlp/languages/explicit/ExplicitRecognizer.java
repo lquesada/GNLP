@@ -5,10 +5,16 @@
 
 package com.elezeta.gnlp.languages.explicit;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.io.Serializable;
+import java.lang.reflect.Array;
+
 import org.modelcc.lexer.recognizer.MatchedObject;
 import org.modelcc.lexer.recognizer.PatternRecognizer;
 import org.modelcc.lexer.recognizer.regexp.ShiftingCharSequence;
@@ -41,8 +47,14 @@ public final class ExplicitRecognizer extends PatternRecognizer {
         String s;
         if (result) {
             s = m.group();
-        	System.out.println("SOY "+function+" HA HABIDO UN MATCHING CON "+s);
-            return new MatchedObject(s,s);
+        	String inside = s.substring(s.indexOf('(')+1,s.length()-1);
+        	String[] insides = inside.split("\\|");
+        	Set<String> types = new HashSet<String>(Arrays.asList(insides));
+        	if (types.contains(function)) {
+        		return new MatchedObject(s,s);
+        	}
+        	else
+        		return null;
         }
         else
             return null;

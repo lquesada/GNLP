@@ -29,7 +29,7 @@ public class GNLPCLI {
 		    System.out.println("");
 		    System.out.println("  Example sentence: ");
 		    System.out.println("");
-		    System.out.println("  I(CommonNoun/ProperNoun) saw(CommonNoun/Verb) a(Determiner) tree(CommonNoun)");
+		    System.out.println("  I(CommonNoun|ProperNoun) saw(CommonNoun|Verb) a(Determiner) tree(CommonNoun)");
 		    System.exit(0);
 		}
 		if (args.length == 1) {
