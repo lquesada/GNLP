@@ -11,4 +11,7 @@ public class AdverbialPhrase extends AdverbialComplement implements IModel {
 	
 	private Adverb adverb;
 	
+	@Optional
+	XComplement[] complements;
+
 }

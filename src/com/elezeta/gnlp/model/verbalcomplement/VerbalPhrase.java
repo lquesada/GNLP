@@ -15,4 +15,7 @@ public class VerbalPhrase extends VerbalComplement implements IModel {
 	@Position(element="verb",position=Position.WITHIN)
 	CoordinatingConjunction preposition;
 
+	@Optional
+	XComplement[] complements;
+	
 }

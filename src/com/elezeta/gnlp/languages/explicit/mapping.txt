@@ -1,5 +1,6 @@
 Verb pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"Verb");
 Adverb pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"Adverb");
+Adjective pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"Adjective");
 CoordinatingConjunction pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"CoordinatingConjunction");
 SubordinatingConjunction pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"SubordinatingConjunction");
 Preposition pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"Preposition");
