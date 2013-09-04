@@ -4,13 +4,6 @@
 
 Need to do:
 
-   Nominal complements comprise nominal phrases, nominal composites, and
-nominal clauses. A nominal phrase consists of an optional determiner, a noun,
-and an optional set of complements. A nominal composite consists of an optional
-determiner, a set of nominal complements and an optional floating conjunction.
-A nominal clause consists of an optional determiner, an optional subordinating
-conjunction and a subordinate clause. Nouns comprise common nouns, proper
-nouns, and pronouns. Pronouns, in turn, reference nouns and proper nouns.
    Adverbial complements comprise adverbial phrases, adverbial composites, and
 adverbial clauses. An adverbial phrase consists of an adverb. An adverbial com-
 posite consists of a set of adverbial complements and an optional floating con-
@@ -28,10 +21,14 @@ optional floating conjunction.
 
 NominalPhrase
 
-Conjunction
 CoordinatingConjunction
+SubordinatingConjunction
 Verb
 Preposition
+Determiner
+Nouns comprise common nouns, proper
+	   nouns, and pronouns. Pronouns, in turn, reference nouns and proper nouns.
+
 
 Careful CSM:
 

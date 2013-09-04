@@ -1,4 +1,4 @@
-package com.elezeta.gnlp.model.verbs;
+package com.elezeta.gnlp.model.verbalcomplement;
 
 import org.modelcc.*;
 
@@ -10,7 +10,7 @@ public class VerbalComposite extends VerbalComplement implements IModel {
 
 	@Optional
 	@Position(element="complements",position=Position.BEFORELAST)
-	Conjunction conjunction;
+	CoordinatingConjunction conjunction;
 	
 	VerbalComplement[] complements;
 

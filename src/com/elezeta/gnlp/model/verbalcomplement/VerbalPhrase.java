@@ -1,4 +1,4 @@
-package com.elezeta.gnlp.model.verbs;
+package com.elezeta.gnlp.model.verbalcomplement;
 
 import org.modelcc.*;
 
