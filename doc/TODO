@@ -4,26 +4,10 @@
 
 Need to do:
 
-   Adverbial complements comprise adverbial phrases, adverbial composites, and
-adverbial clauses. An adverbial phrase consists of an adverb. An adverbial com-
-posite consists of a set of adverbial complements and an optional floating con-
-junction. An adverbial clause consists of an optional subordinating conjunction
-and a subordinate clause.
-   Adjectival complements comprise adjectival composites and adjectival clauses.
-An adjectival composite consists of a set of adjectival complements and an op-
-tional floating conjunction. An adjectival clause consists of an optional subordi-
-nating conjunction and a subordinate clause.
-   Prepositional complements comprise prepositional phrases and prepositional
-composites. A prepositional phrase consists of a floating preposition and a head.
-A prepositional composite consists of a set of prepositional complements and an
-optional floating conjunction.
-
-
-NominalPhrase
-
 CoordinatingConjunction
 SubordinatingConjunction
 Verb
+Adverb
 Preposition
 Determiner
 Nouns comprise common nouns, proper
@@ -34,6 +18,7 @@ Careful CSM:
 
 CoordinateClauseComposite[conjunction] separatorPolicy = BEFORELAST
 VerbalComposite[conjunction] separatorPolicy = BEFORELAST
+NominalComposite[conjunction] separatorPolicy = BEFORELAST
 
 
 CHECK:

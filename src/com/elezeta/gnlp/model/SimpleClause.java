@@ -5,7 +5,7 @@ import org.modelcc.*;
 public class SimpleClause extends Clause implements IModel {
 	
 	@Optional
-	private NominalPhrase np;
+	private AdjectivePhrase np;
 	
 	private VerbalPhrase vp;
 	
