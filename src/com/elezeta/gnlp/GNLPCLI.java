@@ -50,7 +50,7 @@ public class GNLPCLI {
 				parser = ExplicitParserFactory.generateParser();
 			} catch (Exception e) {
 				System.err.println("Exception while generating parser.");
-				e.printStackTrace(System.err);
+				e.printStackTrace();
 				System.exit(1);
 			}
 		}

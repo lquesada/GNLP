@@ -8,5 +8,6 @@ public class CoordinateClauseComposite extends Clause implements IModel {
 	@Position(element="clauses",position=Position.BEFORELAST)
 	private CoordinatingConjunction conjunction;
 	
+	@Minimum(2)
 	private Clause[] clauses;
 }

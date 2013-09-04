@@ -1,5 +1,7 @@
-- Explicit parser factory
+- Bug ModelCC: [BUG] SEVERE: Class "com.elezeta.gnlp.model.nominalcomplement.NominalComplement" cycles with recursive inheritance or composition. Una opción de NominalComplement tiene 2 o más NominalComplements... la otra un Noun.
+- Comprobar aplicación mapping explicit
 - Parsing (GNLPCLI)
+- Mostrar resultados GNLPCLI
 
 Need to do:
 

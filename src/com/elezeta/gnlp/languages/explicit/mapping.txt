@@ -8,10 +8,9 @@ CommonNoun pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"Comm
 ProperNoun pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"ProperNoun");
 Pronoun pattern=(com.elezeta.gnlp.languages.explicit.ExplicitRecognizer:"Pronoun");
 
-CoordinateClauseComposite.conjunction position=beforelast:clauses(after separator)
-
-VerbalComposite.conjunction position=beforelast:complements(after separator)
-NominalComposite.conjunction position=beforelast:complements(after separator)
-AdjectiveComposite.conjunction position=beforelast:complements(after separator)
-AdverbialComposite.conjunction position=beforelast:complements(after separator)
-PrepositionalComposite.conjunction position=beforelast:complements(after separator)
+CoordinateClauseComposite[conjunction] position=beforelast:clauses(after separator);
+VerbalComposite[conjunction] position=beforelast:complements(after separator);
+NominalComposite[conjunction] position=beforelast:complements(after separator);
+AdjectiveComposite[conjunction] position=beforelast:complements(after separator);
+AdverbialComposite[conjunction] position=beforelast:complements(after separator);
+PrepositionalComposite[conjunction] position=beforelast:complements(after separator);
