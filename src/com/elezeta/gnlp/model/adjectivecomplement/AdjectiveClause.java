@@ -2,9 +2,8 @@ package com.elezeta.gnlp.model.adjectivecomplement;
 
 import org.modelcc.*;
 
-import com.elezeta.gnlp.model.XComplement;
-import com.elezeta.gnlp.model.XHead;
-import com.elezeta.gnlp.model.verbalcomplement.Conjunction;
+import com.elezeta.gnlp.model.Clause;
+import com.elezeta.gnlp.model.SubordinatingConjunction;
 
 public abstract class AdjectiveClause extends AdjectiveComplement implements IModel {
 

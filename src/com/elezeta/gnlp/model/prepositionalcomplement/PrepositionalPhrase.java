@@ -2,7 +2,6 @@ package com.elezeta.gnlp.model.prepositionalcomplement;
 
 import org.modelcc.*;
 
-import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
 @FreeOrder
@@ -10,7 +9,7 @@ public abstract class PrepositionalPhrase extends PrepositionalComplement implem
 
 	// A prepositional phrase consists of a floating preposition and a head.
 	
-	private Preposition prepositional;
+	private Preposition preposition;
 	
 	private XHead head;
 	

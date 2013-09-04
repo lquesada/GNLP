@@ -2,8 +2,10 @@ package com.elezeta.gnlp.model.nominalcomplement;
 
 import org.modelcc.*;
 
+import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
+import com.elezeta.gnlp.model.adverbialcomplement.Adverb;
 
 public abstract class NominalComposite extends NominalComplement implements IModel {
 

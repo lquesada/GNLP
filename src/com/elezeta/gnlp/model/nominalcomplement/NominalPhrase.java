@@ -4,7 +4,6 @@ import org.modelcc.*;
 
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
-import com.elezeta.gnlp.model.verbalcomplement.Conjunction;
 
 public abstract class NominalPhrase extends NominalComplement implements IModel {
 

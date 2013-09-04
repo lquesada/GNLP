@@ -2,6 +2,7 @@ package com.elezeta.gnlp.model.verbalcomplement;
 
 import org.modelcc.*;
 
+import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 
 public class VerbalPhrase extends VerbalComplement implements IModel {
@@ -12,6 +13,6 @@ public class VerbalPhrase extends VerbalComplement implements IModel {
 	
 	@Optional
 	@Position(element="verb",position=Position.WITHIN)
-	Preposition preposition;
+	CoordinatingConjunction preposition;
 
 }

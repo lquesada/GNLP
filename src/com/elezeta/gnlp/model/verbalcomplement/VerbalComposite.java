@@ -2,6 +2,7 @@ package com.elezeta.gnlp.model.verbalcomplement;
 
 import org.modelcc.*;
 
+import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 
 public class VerbalComposite extends VerbalComplement implements IModel {
