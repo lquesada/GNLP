@@ -1,6 +1,7 @@
 - CLI: parameters language and phrase
 - CLI: parser generation
 - ant build.xml 
+- Dummy language
 
 Need to do:
 
@@ -14,12 +15,13 @@ CommonNoun
 ProperNoun
 Pronoun
 
-Careful CSM:
-
-CoordinateClauseComposite[conjunction] separatorPolicy = BEFORELAST
-VerbalComposite[conjunction] separatorPolicy = BEFORELAST
-NominalComposite[conjunction] separatorPolicy = BEFORELAST
+CSM issues:
 
 
-CHECK:
-FreeOrder in VerbalComplement inherits alright to VerbalComposite?
+[conjunction] separatorPolicy = BEFORELAST in:
+CoordinateClauseComposite
+VerbalComposite
+NominalComposite
+AdjectiveComposite
+AdverbialComposite
+PrepositionalComposite
