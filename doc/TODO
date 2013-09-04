@@ -17,6 +17,7 @@ CSM issues:
 
 
 [conjunction] separatorPolicy = BEFORELAST in:
+
 CoordinateClauseComposite
 VerbalComposite
 NominalComposite

@@ -6,11 +6,11 @@ import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
-public abstract class AdjectiveComposite extends AdjectiveComplement implements IModel {
+public class AdjectiveComposite extends AdjectiveComplement implements IModel {
 
 	// An adjective composite consists of a set of adjective complements and an optional floating conjunction.
 
-	@Optional
+	@Minimum(2)
 	private AdjectiveComplement[] complements;
 
 	@Optional

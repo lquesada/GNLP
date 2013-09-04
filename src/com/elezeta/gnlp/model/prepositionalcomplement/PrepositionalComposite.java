@@ -6,11 +6,11 @@ import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
-public abstract class PrepositionalComposite extends PrepositionalComplement implements IModel {
+public class PrepositionalComposite extends PrepositionalComplement implements IModel {
 
 	// A prepositional composite consists of a set of prepositional complements and an optional floating conjunction.
 
-	@Optional
+	@Minimum(2)
 	private PrepositionalComplement[] complements;
 
 	@Optional

@@ -6,11 +6,11 @@ import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
-public abstract class AdverbialComposite extends AdverbialComplement implements IModel {
+public class AdverbialComposite extends AdverbialComplement implements IModel {
 
 	// An adverbial composite consists of a set of adverbial complements and an optional floating conjunction.
 
-	@Optional
+	@Minimum(2)
 	private AdverbialComplement[] complements;
 
 	@Optional

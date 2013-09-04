@@ -9,10 +9,11 @@ public class VerbalComposite extends VerbalComplement implements IModel {
 
 	// A verbal composite consists of a set of verbal complements and an optional floating conjunction.
 
+	@Minimum(2)
+	private VerbalComplement[] complements;
+
 	@Optional
 	@Position(element="complements",position=Position.BEFORELAST)
-	CoordinatingConjunction conjunction;
+	private CoordinatingConjunction conjunction;
 	
-	VerbalComplement[] complements;
-
 }

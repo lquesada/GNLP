@@ -1,6 +1,9 @@
 package com.elezeta.gnlp;
 
+import java.util.Collection;
+
 import org.modelcc.parser.Parser;
+import org.modelcc.parser.ParserException;
 
 import com.elezeta.gnlp.languages.explicit.ExplicitParserFactory;
 import com.elezeta.gnlp.model.Sentence;
@@ -21,8 +24,8 @@ public class GNLPCLI {
 		    System.out.println("- explicit");
 		    System.out.println("");
 		    System.out.println("  Specify language elements directly: ");
-		    System.out.println("    CoordinatingConjunction, SubordinatingConjunction, Verb, Adverb, Preposition,");
-		    System.out.println("    Determiner, CommonNoun, ProperNoun, Pronoun");
+		    System.out.println("    CoordinatingConjunction, SubordinatingConjunction, Verb, Adverb,");
+		    System.out.println("    Preposition, Determiner, CommonNoun, ProperNoun, Pronoun");
 		    System.out.println("");
 		    System.out.println("  Example sentence: ");
 		    System.out.println("");
@@ -53,11 +56,16 @@ public class GNLPCLI {
 		}
 		else {
 			System.err.println("Invalid language: "+args[0]);
-		    System.err.println("");
 		    System.exit(1);
 		}
 		if (parser != null) {
-			//TODO parsing
+				try {
+					Collection<Sentence> interpretations = parser.parseAll(args[1]);
+					System.out.println("Found "+interpretations.size()+" interpretations.");
+				} catch (ParserException e) {
+					System.err.println("No valid parse trees found.");
+				    System.exit(2);
+				}
 		}
 	}
 }

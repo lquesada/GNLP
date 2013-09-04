@@ -5,7 +5,7 @@ import org.modelcc.*;
 import com.elezeta.gnlp.model.Clause;
 import com.elezeta.gnlp.model.SubordinatingConjunction;
 
-public abstract class AdjectiveClause extends AdjectiveComplement implements IModel {
+public class AdjectiveClause extends AdjectiveComplement implements IModel {
 
 	// An adjective clause consists of an optional subordinating conjunction and a subordinate clause.
 
