@@ -1,4 +1,5 @@
 Fails:
 
 - Comprobar entrada y dar error si es inválida.
+- Ambiguedades léxicas complejas (New York/New_York) en explicit
 - Lenguajes de verdad
