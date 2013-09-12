@@ -1,5 +1,6 @@
 Fails:
 
+- No mostrar los [] como un item con contenido, sino mostrar sus contenidos directamente.
 - Comprobar entrada y dar error si es inválida.
 - Ambiguedades léxicas complejas (New York/New_York) en explicit
 - Lenguajes de verdad
