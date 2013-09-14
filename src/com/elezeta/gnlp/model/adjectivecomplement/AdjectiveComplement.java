@@ -7,6 +7,4 @@ import com.elezeta.gnlp.model.XHead;
 
 public abstract class AdjectiveComplement extends XHead implements IModel {
 
-	// Adjective complements comprise adjective composites and adjective clauses.
-
 }

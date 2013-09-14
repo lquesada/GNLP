@@ -2,14 +2,14 @@ package com.elezeta.gnlp.model;
 
 import org.modelcc.*;
 
-import com.elezeta.gnlp.model.nominalcomplement.NominalPhrase;
-import com.elezeta.gnlp.model.verbalcomplement.VerbalPhrase;
+import com.elezeta.gnlp.model.nominalcomplement.NounPhrase;
+import com.elezeta.gnlp.model.verbalcomplement.VerbPhrase;
 
 public class SimpleClause extends Clause implements IModel {
 	
 	@Optional
-	private NominalPhrase np;
+	private NounPhrase np;
 	
-	private VerbalPhrase vp;
+	private VerbPhrase vp;
 	
 }

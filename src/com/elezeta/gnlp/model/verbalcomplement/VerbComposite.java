@@ -5,12 +5,10 @@ import org.modelcc.*;
 import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 
-public class VerbalComposite extends VerbalComplement implements IModel {
-
-	// A verbal composite consists of a set of verbal complements and an optional floating conjunction.
+public class VerbComposite extends VerbComplement implements IModel {
 
 	@Minimum(2)
-	private VerbalComplement[] complements;
+	private VerbComplement[] complements;
 
 	@Optional
 	@Position(element="complements",position=Position.BEFORELAST)

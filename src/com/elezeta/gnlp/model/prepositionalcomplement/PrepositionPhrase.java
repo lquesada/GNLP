@@ -6,10 +6,8 @@ import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
 @FreeOrder
-public class PrepositionalPhrase extends PrepositionalComplement implements IModel {
+public class PrepositionPhrase extends PrepositionComplement implements IModel {
 
-	// A prepositional phrase consists of a floating preposition and a head.
-	
 	private Preposition preposition;
 	
 	private XHead head;

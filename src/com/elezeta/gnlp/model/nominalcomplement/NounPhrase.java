@@ -4,14 +4,14 @@ import org.modelcc.*;
 
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
+import com.elezeta.gnlp.model.adverbialcomplement.Adverb;
 
-public class NominalPhrase extends NominalComplement implements IModel {
+@FreeOrder
+public class NounPhrase extends NounComplement implements IModel {
 
-	// A nominal phrase consists of an optional determiner, a noun, and an optional set of complements.
-	
 	@Optional
 	private Determiner determiner;
-	
+
 	private Noun noun;
 	
 	@Optional

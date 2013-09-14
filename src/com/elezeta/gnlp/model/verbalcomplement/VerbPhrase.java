@@ -5,9 +5,8 @@ import org.modelcc.*;
 import com.elezeta.gnlp.model.CoordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 
-public class VerbalPhrase extends VerbalComplement implements IModel {
-
-	// A verbal phrase consists of a set of floating verbs and an optional floating preposition.
+@FreeOrder
+public class VerbPhrase extends VerbComplement implements IModel {
 
 	Verb[] verb;
 	

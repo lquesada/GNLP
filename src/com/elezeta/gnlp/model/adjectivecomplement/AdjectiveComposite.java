@@ -8,8 +8,6 @@ import com.elezeta.gnlp.model.XHead;
 
 public class AdjectiveComposite extends AdjectiveComplement implements IModel {
 
-	// An adjective composite consists of a set of adjective complements and an optional floating conjunction.
-
 	@Minimum(2)
 	private AdjectiveComplement[] complements;
 

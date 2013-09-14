@@ -5,10 +5,9 @@ import org.modelcc.*;
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
-public class AdverbialPhrase extends AdverbialComplement implements IModel {
+@FreeOrder
+public class AdverbPhrase extends AdverbComplement implements IModel {
 
-	// An adverbial phrase consists of an adverb.
-	
 	private Adverb adverb;
 	
 	@Optional

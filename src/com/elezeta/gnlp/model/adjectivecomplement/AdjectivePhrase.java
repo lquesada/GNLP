@@ -5,10 +5,11 @@ import org.modelcc.*;
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
+@FreeOrder
 public class AdjectivePhrase extends AdjectiveComplement implements IModel {
 
-	// An adjective phrase consists of an adjective.
-	
 	private Adjective adjective;
-	
+
+	@Optional
+	private XComplement[] complements;
 }

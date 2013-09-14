@@ -7,9 +7,7 @@ import com.elezeta.gnlp.model.SubordinatingConjunction;
 import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 
-public class AdverbialClause extends AdverbialComplement implements IModel {
-
-	// An adverbial clause consists of an optional subordinating conjunction and a subordinate clause.
+public class AdverbClause extends AdverbComplement implements IModel {
 
 	@Optional
 	SubordinatingConjunction conjunction;

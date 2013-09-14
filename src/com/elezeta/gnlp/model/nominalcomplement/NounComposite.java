@@ -7,14 +7,13 @@ import com.elezeta.gnlp.model.XComplement;
 import com.elezeta.gnlp.model.XHead;
 import com.elezeta.gnlp.model.adverbialcomplement.Adverb;
 
-public class NominalComposite extends NominalComplement implements IModel {
+public class NounComposite extends NounComplement implements IModel {
 
-	// A nominal composite consists of an optional determiner, a set of nominal complements and an optional floating conjunction.
 	@Optional
 	private Determiner determiner;
 
 	@Minimum(2)
-	private NominalComplement[] complements;
+	private NounComplement[] complements;
 
 	@Optional
 	@Position(element="complements",position=Position.BEFORELAST)
