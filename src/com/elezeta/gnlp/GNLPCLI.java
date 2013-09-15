@@ -121,10 +121,9 @@ public class GNLPCLI {
 				}
 			}
 			else {
-				System.out.println(getIndent(indent)+"[-.----] - "+object.getClass().getSimpleName()+"*");
 				for (Object content : (Object[])object) {
 					if (content != null)
-						show(content,indent+2,inputString,parser);
+						show(content,indent,inputString,parser);
 				}
 				
 			}
