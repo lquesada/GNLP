@@ -8,7 +8,7 @@ import com.elezeta.gnlp.model.XHead;
 
 public class AdjectiveComposite extends AdjectiveComplement implements IModel {
 
-	@Minimum(2)
+	@Multiplicity(minimum=2)
 	private AdjectiveComplement[] complements;
 
 	@Optional

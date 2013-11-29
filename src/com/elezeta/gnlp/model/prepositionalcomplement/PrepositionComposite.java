@@ -8,7 +8,7 @@ import com.elezeta.gnlp.model.XHead;
 
 public class PrepositionComposite extends PrepositionComplement implements IModel {
 
-	@Minimum(2)
+	@Multiplicity(minimum=2)
 	private PrepositionComplement[] complements;
 
 	@Optional

@@ -7,7 +7,7 @@ import com.elezeta.gnlp.model.XComplement;
 
 public class VerbComposite extends VerbComplement implements IModel {
 
-	@Minimum(2)
+	@Multiplicity(minimum=2)
 	private VerbComplement[] complements;
 
 	@Optional

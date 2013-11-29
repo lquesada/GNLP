@@ -12,7 +12,7 @@ public class NounComposite extends NounComplement implements IModel {
 	@Optional
 	private Determiner determiner;
 
-	@Minimum(2)
+	@Multiplicity(minimum=2)
 	private NounComplement[] complements;
 
 	@Optional
