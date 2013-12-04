@@ -8,13 +8,13 @@ import com.elezeta.gnlp.model.XComplement;
 @FreeOrder
 public class VerbPhrase extends VerbComplement implements IModel {
 
+	@Multiplicity(minimum=1)
 	Verb[] verb;
 	
 	@Optional
 	@Position(element="verb",position=Position.WITHIN)
 	CoordinatingConjunction preposition;
 
-	@Optional
 	XComplement[] complements;
 	
 }

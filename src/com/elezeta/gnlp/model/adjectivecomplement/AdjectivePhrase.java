@@ -10,6 +10,5 @@ public class AdjectivePhrase extends AdjectiveComplement implements IModel {
 
 	private Adjective adjective;
 
-	@Optional
 	private XComplement[] complements;
 }

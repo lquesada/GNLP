@@ -14,7 +14,6 @@ public class NounPhrase extends NounComplement implements IModel {
 
 	private Noun noun;
 	
-	@Optional
 	private XComplement[] complements;
 	
 }

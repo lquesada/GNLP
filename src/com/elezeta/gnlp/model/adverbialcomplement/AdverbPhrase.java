@@ -10,7 +10,6 @@ public class AdverbPhrase extends AdverbComplement implements IModel {
 
 	private Adverb adverb;
 	
-	@Optional
 	XComplement[] complements;
 
 }

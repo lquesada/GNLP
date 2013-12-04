@@ -12,7 +12,6 @@ public class PrepositionPhrase extends PrepositionComplement implements IModel {
 	
 	private XHead head;
 
-	@Optional
 	XComplement[] complements;
 
 }
