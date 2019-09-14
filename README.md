@@ -1,5 +1,4 @@
 GNLP
-
 ====
 
 GNLP (General Natural Language Parser) Model Proof-of-concept.
